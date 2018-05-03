@@ -1,0 +1,16 @@
+storage:
+  nodes: 'localhost:8091'
+  username: 'username'
+  password: 'password'
+  bucket: 'bucketName'
+
+logger:
+  step: 1 # in %
+
+data:
+  entitiesAmount: 10000
+  writeOpts:
+#    expiry: 1000
+    persist_to: 0
+    replicate_to: 0
+
